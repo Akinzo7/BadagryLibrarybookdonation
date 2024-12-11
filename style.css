@@ -1,0 +1,100 @@
+*,**{
+  padding:0;
+  margin:0;
+}
+body{
+  max-width: 100%;
+}
+.navbar{
+    background-color: #004d00;
+    color: white;
+    padding: 1rem 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header h1 {
+    margin: 0;
+}
+.content{
+  height:auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    
+}
+.landing-page{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 2rem;
+  background-color: #fff;
+  align-items: center;
+  height: fit-content;
+}
+
+.landing h1 {
+  color: black;
+  margin-bottom: 1rem;
+}
+.image img {
+  width:250px ;
+  height:250px;
+}
+
+.btn {
+    background-color: #004d00;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.green{
+    display: flex; 
+    flex-direction:row;
+    gap: 15px;
+    padding: 2rem;
+    background-color: #004d00;
+    color: white;
+    height: fit-content;
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 2rem;
+  background-color: #fff;
+  align-items: center; 
+  height: fit-content;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #004d00;
+    color: white;
+    padding: 1rem 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
